@@ -2,12 +2,12 @@ var express = require('express');
 var router = express.Router();
 
 const anaSayfa = function (req, res, next) {
-  res.render('anasayfa',
-   { "baslik": "Ana sayfa",
-    "sayfaBaslik":{
-      "siteAd":"MekanBul",
-      "slogan":"Civardaki Mekanları Keşfet!"
-    },
+  res.render('anasayfa', 
+  {"baslik": "Anasayfa",
+    "sayfaBaslik" : {
+      "siteAd" :"MekanBul",
+      "slogan" : "Civardaki mekanları keşfet!"
+     },
     "mekanlar":[
       {
           "ad":"Hazal's Kitchen",
