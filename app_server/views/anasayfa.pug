@@ -1,64 +1,25 @@
-extends layout 
+extends layout
+include fonksiyonlar/yildiz 
 block content 
     #banner.page-header 
         .row 
             .col-lg-6 
                 h1 
-                    |   MekanBul 
-                    small &nbsp; Civardaki mekanları bul! 
+                    |   #{sayfaBaslik.siteAd} 
+                    small &nbsp; #{sayfaBaslik.slogan} 
     .row 
-        .row.list-group 
-        .col-xs-12.col-sm-12 
-            .col-xs-12.list-group-item 
-                h4 
-                    a(href='/mekan') Hazal's Kitchen
-                    small   &nbsp;
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star-empty 
-                span.badge.pull-right.badge-default 10km
-                p.address İyaşpark Avm
-                p 
-                    span.label.label-warning Hamburger 
-                    |   &nbsp;
-                    span.label.label-warning Pizza
-
-    .row 
-        .row.list-group 
-        .col-xs-12.col-sm-12 
-            .col-xs-12.list-group-item 
-                h4 
-                    a(href='/mekan') Seda Oto Galeri
-                    small   &nbsp;
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star-empty 
-                span.badge.pull-right.badge-default 20km
-                p.address Bahçelievler
-                p 
-                    span.label.label-warning Araba 
-                    |   &nbsp;
-                    span.label.label-warning Lastik
-
-    .row 
-        .row.list-group 
-        .col-xs-12.col-sm-12 
-            .col-xs-12.list-group-item 
-                h4 
-                    a(href='/mekan') Zera'nın Sweat Dünyası
-                    small   &nbsp;
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star
-                    small.glyphicon.glyphicon-star-empty 
-                span.badge.pull-right.badge-default 30km
-                p.address Modernevler
-                p 
-                    span.label.label-warning Sweat
-                    |   &nbsp;
-                    span.label.label-warning Çorap                                
+        each mekan in mekanlar
+            cd.row.list-group 
+            .col-xs-12.col-sm-12 
+                .col-xs-12.list-group-item 
+                    h4 
+                        a(href='/mekan') #{mekan.ad}
+                        small   &nbsp;
+                        +puanOlustur(mekan.puan)
+                            
+                    span.badge.pull-right.badge-default #{mekan.mesafe}
+                    p.address  #{mekan.adres}
+                    p
+                        each imkan in mekan.imkanlar
+                            span.label.label-warning #{imkan}
+                            | &nbsp;
