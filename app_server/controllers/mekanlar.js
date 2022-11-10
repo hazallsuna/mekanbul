@@ -4,8 +4,8 @@ var router = express.Router();
 const anaSayfa = function (req, res, next) {
   res.render('anasayfa',
    { "baslik": "Ana sayfa",
-    "sayfaBaslik":{
-      "siteAd":"MekanBul",
+      "sayfaBaslik":{
+      "site":"MekanBul",
       "slogan":"Civardaki Mekanları Keşfet!"
     },
     "mekanlar":[
