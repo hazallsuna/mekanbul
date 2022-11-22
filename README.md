@@ -1,12 +1,12 @@
-Welcome to the mekanbul wiki!
-[web1](https://mekanbul5.hazalsss.repl.co/api/mekanlar?enlem=37.7&boylam=30.5)
 
-![web1.1](https://github.com/hazallsuna/mekanbul/blob/odev5/wiki_resimler/konum.png)
+[1.Girilen konum civarındaki mekanları listele](https://mekanbul5.hazalsss.repl.co/api/mekanlar?enlem=37.7&boylam=30.5)
 
-[web2](https://mekanbul5.hazalsss.repl.co/api/mekanlar/637b71e465c11dbe815aa64b)
+![1.Girilen konum civarındaki mekanları listele1.1](https://github.com/hazallsuna/mekanbul/blob/odev5/wiki_resimler/konum.png)
 
-![web2.1](https://github.com/hazallsuna/mekanbul/blob/odev5/wiki_resimler/mekanlar.png)
+[2.Mekanın id ile mekan bilgilerini getir](https://mekanbul5.hazalsss.repl.co/api/mekanlar/637b71e465c11dbe815aa64b)
 
-[web3](https://mekanbul5.hazalsss.repl.co/api/mekanlar/637b71e465c11dbe815aa64b/yorumlar/637bad9aa6bb7593e416db4e)
+![2.Mekanın id ile mekan bilgilerini getir2.1](https://github.com/hazallsuna/mekanbul/blob/odev5/wiki_resimler/mekanlar.png)
 
-![web3.1](https://github.com/hazallsuna/mekanbul/blob/odev5/wiki_resimler/yorumlar.png)
+[3.Bir mekana ait belirli bir yorumu göster](https://mekanbul5.hazalsss.repl.co/api/mekanlar/637b71e465c11dbe815aa64b/yorumlar/637bad9aa6bb7593e416db4e)
+
+![3.Bir mekana ait belirli bir yorumu göster3.1](https://github.com/hazallsuna/mekanbul/blob/odev5/wiki_resimler/yorumlar.png)
