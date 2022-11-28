@@ -1,9 +1,9 @@
 # mekanbul REST API Testleri
-[Collection : mekanbul API testleri](https://mekanbul5.hazalsss.repl.co/api/mekanlar?enlem=37.7&boylam=30.5)
+[Collection : mekanbul API testleri](https://github.com/hazallsuna/mekanbul/blob/odev6/wiki_resimler/CollectionApiTest.png)
 
 ![Collection : mekanbul API testleri](https://github.com/hazallsuna/mekanbul/blob/odev6/wiki_resimler/CollectionApiTest.png)
 
-[API Testleri](https://mekanbul5.hazalsss.repl.co/api/mekanlar/637b71e465c11dbe815aa64b)
+[API Testleri](https://github.com/hazallsuna/mekanbul/blob/odev6/wiki_resimler/ApiTest.png)
 ![API Testleri](https://github.com/hazallsuna/mekanbul/blob/odev6/wiki_resimler/ApiTest.png)
 
 
