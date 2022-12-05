@@ -77,7 +77,7 @@ const mekanEkle = function (req, res) {
         }]
     },function(hata,mekan){
         if(hata){
-            cevapOlustur(res,404,hata);
+            cevapOlustur(res,400,hata);
         }
         else{
             cevapOlustur(res,201,mekan);

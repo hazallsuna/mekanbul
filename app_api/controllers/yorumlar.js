@@ -65,7 +65,7 @@ const yorumEkle = (req, res) => {
             }
         });
     }else{
-        res.status(200).json({ mesaj: "Mekan bulunamadı." });
+        res.status(404).json({ mesaj: "Mekan bulunamadı." });
     }
 };
 
