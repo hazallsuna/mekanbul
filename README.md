@@ -1,5 +1,8 @@
 # mekanbul mekanları listele testleri
-![Mekanları listele Replit adresi](https://github.com/hazallsuna/mekanbul/blob/odev7/resimler/odev7_.png)
+
+[Yakınlardaki Mekanları Listele - Replit Adresi](https://mekanbul-2.hazalsss.repl.co/?enlem=37&boylam=35)
+![Yakınlardaki Mekanları Listele - Replit Adresi](./resimler//odev7.png)
+
 
 # mekanbul REST API Testleri
 [Collection : mekanbul API testleri](https://github.com/hazallsuna/mekanbul/blob/odev6/wiki_resimler/CollectionApiTest.png)
