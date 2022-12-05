@@ -1,4 +1,5 @@
-
+# mekanbul mekanları listele testleri
+[Yakınlardaki mekanları listele-replit adresi](https://github.com/hazallsuna/mekanbul/blob/odev7/wiki_resimler/odev7.png)
 
 # mekanbul REST API Testleri
 [Collection : mekanbul API testleri](https://github.com/hazallsuna/mekanbul/blob/odev6/wiki_resimler/CollectionApiTest.png)
