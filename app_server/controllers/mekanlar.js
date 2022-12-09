@@ -99,7 +99,7 @@ const yorumEkle=function(req,res,next){
     if(!mekanAdi){
         res.redirect("/mekan/"+mekanid);
     }else
-    res.render('yorumekle',{baslik:mekanAdi+'mekanına yorum ekle'});
+    res.render('yorumekle',{ "baslik": mekanAdi + " mekanına yorum ekle ", title: "Yorum ekle" });
 };
 
 const yorumumuEkle  = function(req,res){
