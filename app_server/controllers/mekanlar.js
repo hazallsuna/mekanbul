@@ -1,7 +1,7 @@
 const axios=require("axios");
 var apiSecenekleri={
     //sunucu:"http://localhost:3000",
-    sunucu:"https://mekanbul-2.hazalsss.repl.co",
+    sunucu:"https://mekanbul-3.hazalsss.repl.co",
     apiYolu:"/api/mekanlar/"
 }
 var mesafeyiFormatla=function(mesafe){
