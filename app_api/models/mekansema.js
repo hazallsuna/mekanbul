@@ -4,7 +4,7 @@ var yorumSema=new mongoose.Schema({
     yorumYapan:{type:String,required:true},
     yorumMetni:{type:String,required:true},
     puan:{type:Number,default:0,min:0,max:5},
-    tarih:{type:Date,required:true}
+    tarih:{type:Date,default:   Date.now},
 });
 var saatSema=new mongoose.Schema({
     gunler:{type:String,required:true},
